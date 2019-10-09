@@ -7,6 +7,8 @@
       <meta name="author" content="">
       <title>Atral - Votre partenaire logistique</title>
       <!-- Bootstrap core CSS -->
+      <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+      <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
       <link rel="stylesheet" href="//stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" crossorigin="anonymous">
       <link rel="stylesheet" href="style.css">
       <!-- Custom styles for this template -->
@@ -14,45 +16,50 @@
    <body>
      <div class="d-flex  flex-column flex-md-row align-items-center fixed-top  bg-white border-bottom shadow-sm">
         <div class="mx-4 my-0 mr-md-auto">
-          <a href="index2.html"><img src="img/logo.png" class="img-fluid img-size" alt="logo"></a>
+          <a href=""><img src="img/logo.png" class="img-fluid img-size" alt="logo"></a>
         </div>
         <nav class="my-2 my-md-0 mr-md-3">
-           <a class="p-2 text-dark  nounderline" href="index2.html">Acceuil</a>
-           <a class="p-2 text-dark active dropdown-toggle nounderline" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Nos services</a>
-           <div class="dropdown-menu dropdown-menu-center" style="width: 300px;">
-              <a href="consignation.html"><button class="dropdown-item" type="button">Consignation de navires</button></a>
-               <a href="transit.html"><button class="dropdown-item" type="button">Transit</button></a>
-               <a href="terminal.html"><button class="dropdown-item" type="button">Terminal a conteneur</button></a>
-              <a href="logistique.html"><button class="dropdown-item" type="button">Logistique</button></a>
+           <a id="p-2" class="p-2 text-dark  nounderline" href="index.html">Accueil</a>
+           <div class="btn-group">
+             <a id="p-2" class="p-2 text-dark active dropdown-toggle nounderline" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Nos services</a>
+           <div class="dropdown-menu dropdown-menu-center">
+             <a href="consignation.html"><button  class="dropdown-item" type="button">Consignation de navires</button></a>
+              <a href="transit.html"><button class="dropdown-item" type="button">Transit</button></a>
+              <a href="terminal.html"><button class="dropdown-item" type="button">Terminal à conteneurs</button></a>
+             <a href="logistique.html"><button class="dropdown-item" type="button">Logistique</button></a>
            </div>
-           <a class="p-2 text-dark nounderline" href="propos.html">A propos</a>
-           <a class="p-2 text-dark nounderline" href="#">Contact</a>
+         </div>
+           <a id="p-2" class="p-2 text-dark nounderline" href="propos.html">A propos</a>
+           <a id="p-2" class="p-2 text-dark nounderline" href="contact.html">Contact</a>
         </nav>
          <a class="mx-4" href="quotation.html" target="_blank"><button type="button" class="btn btn-danger btn-sm">Demande de cotation</button></a>
      </div>
       <div class="jumbotron jumbo-transit jumbotron-fluid horizontal">
-         <div class="container jumbo-container">
+        <div class="container jumbo-container">
             <div class="row h-100">
                <div class="col-sm-12 my-auto">
                   <div class="subtitle-content">
-                     <div class="col-md-4">
-                        <h1  class="text-jumbotron">TRANSIT</h1>
+                     <div class="col-md-7">
+                        <h1 class="home-title home-padding animatable bounceInLeft">Transit</h1>
+                        <p class="home-subtitle">
+                        </p>
                      </div>
                   </div>
                </div>
             </div>
-         </div>
+        </div>
       </div>
       <div class="container-fluid text-consi">
          <div class="container">
-            <p class="text-paragraph">Atral en tant qu’agent de transit, est en charge de l’ensemble des opération administrative et commerciales relatives à la circulation de vos marchandises. Nous organisons le transport des marchandises en utilisant des moyens de transports adaptés à la situation.</p>
-
-            <p class="text-paragraph">Atral assure une gestion optimale de vos opérations de transit aussi bien à l’importation qu’a l’exportation, notamment les activités de transit pétrolier ou de transit projets. </p>
+            <p class="text-paragraph">Commissionnaire agréé en douane depuis 1999 sous  le  numéro 1999-04, ATRAL se charge de l’ensemble des opérations administratives et douanières relatives à la circulation de vos marchandises. Nous assurons les opérations de dédouanement et de déclaration en détail. Nous organisons aussi la livraison et la mise à disposition des marchandises en utilisant des moyens de transport et de manutention adaptés à chaque cargaison. Notre fine connaissance de toute la réglementation en vigueur au Bénin vous garantit  une gestion optimale de vos opérations de transit en terrestre,  maritime et aérien aussi bien à l’importation qu’à l’exportation.</p>
          </div>
          <div class="container">
-           <p class="chiffre">CHIFFRE CLÉ:</p>
-           <p class="text-paragraph">Transit Import : Gestion des opérations d’Importation de plus 350 000 T de marchandise en conventionnel</p>
-              <p class="text-paragraph">Transit Export : Gestion des opérations d’Exportation de 225 000 T de coton fibre et produits dérivés</p>
+          <span class="chiffre metier-underline">Chiffres Clés:</span>
+           <ul style="padding-top:20px;">
+             <p class="text-paragraph"><i class="icon-ok"></i> Transit Import : Gestion des opérations d’importation de plus de 350 000 T de marchandise en conventionnel en 2018</p>
+             <p class="text-paragraph"><i class="icon-ok"></i> Transit Export : Gestion des opérations d’exportation de 230 000 T de coton fibre et produits dérivés en 2018</p>
+             <p class="text-paragraph"><i class="icon-ok"></i> Transit pétrolier : Gestion des opérations de transit via une section hydrocarbure présente au quai pétrolier</p>
+           </ul>
            <!-- <div class="row">
              <div class="col-md-3">
                <img  src="img/img4.png" class="img-fluid img-small">
@@ -79,7 +86,7 @@
                      <img src="img/linkedin.svg" class="img-icon" alt="logo">
                      <img src="img/Twitter.svg" class="img-icon" alt="logo">
                   </div> -->
-                  <small class="d-block mb-3 text-muted"><span>&copy; 2018-2019</span><p>Atral Benin</p></small>
+                  <small class="d-block mb-3 text-muted"><span>&copy; 2018-2019</span><br><span>Email: contact@atralbenin.com</span><br><span>Tel:</span><span> +229 21 30 39 22</span><p>Site réalisé par : <span><a class="text-universum" target="_blank" href="http://universum.coolpage.biz"></span>universum & associates</span></a></p></small>
 
                </div>
             </div>
@@ -92,6 +99,36 @@
       <script src="//cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" crossorigin="anonymous"></script>
       <script src="//stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" crossorigin="anonymous"></script>
       <script>
+      jQuery(function($) {
+
+        // Function which adds the 'animated' class to any '.animatable' in view
+        var doAnimations = function() {
+
+          // Calc current offset and get all animatables
+          var offset = $(window).scrollTop() + $(window).height(),
+              $animatables = $('.animatable');
+
+          // Unbind scroll handler if we have no animatables
+          if ($animatables.length == 0) {
+            $(window).off('scroll', doAnimations);
+          }
+
+          // Check all animatables and animate them if necessary
+          $animatables.each(function(i) {
+             var $animatable = $(this);
+            if (($animatable.offset().top + $animatable.height() - 20) < offset) {
+              $animatable.removeClass('animatable').addClass('animated');
+            }
+          });
+
+        };
+
+        // Hook doAnimations on scroll, and trigger a scroll
+        $(window).on('scroll', doAnimations);
+        $(window).trigger('scroll');
+
+      });
+
       Holder.addTheme("thumb", {
   bg: "#55595c",
   fg: "#eceeef",

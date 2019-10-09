@@ -23,8 +23,13 @@
   src: url(font/Hind-Medium.ttf);
 }
 
-.text-dark {
+.p-2 {
   font: 16px "greatest-medium" !important;
+  color: black !important;
+}
+
+.p-2:hover {
+  color: red !important;
 }
 
 .img-size {
@@ -49,6 +54,11 @@
   border-bottom: 2.5px solid red;
 }
 
+.metier-underline {
+  border-bottom: 2px solid red;
+  line-height: 28px;
+}
+
 .nounderline {
   text-decoration: none !important;
 }
@@ -67,8 +77,8 @@
 .jumbo-import {
   background:
        /* top, transparent red, faked with gradient */ linear-gradient(
-      rgba(244, 67, 54, 0.3),
-      rgba(244, 67, 54, 0.3)
+      rgba(244, 67, 54, 0.1),
+      rgba(244, 67, 54, 0.1)
     ),
     /* bottom, image */ url(img/import.jpg);
   height: 70vh;
@@ -91,8 +101,8 @@
 .jumbo-consignation {
   background:
        /* top, transparent red, faked with gradient */ linear-gradient(
-      rgba(244, 67, 54, 0.3),
-      rgba(244, 67, 54, 0.3)
+      rgba(244, 67, 54, 0.1),
+      rgba(244, 67, 54, 0.1)
     ),
     /* bottom, image */ url(img/consii.jpg);
   height: 70vh;
@@ -106,11 +116,11 @@
 .jumbo-terminal {
   background:
        /* top, transparent red, faked with gradient */ linear-gradient(
-      rgba(244, 67, 54, 0.3),
-      rgba(244, 67, 54, 0.3)
+      rgba(244, 67, 54, 0.1),
+      rgba(244, 67, 54, 0.1)
     ),
-    /* bottom, image */ url(img/terminal.jpg);
-  height: 70vh;
+    /* bottom, image */ url(img/propos03.jpg);
+  height: 80vh;
 
   background-attachment: fixed;
   */background-repeat: no-repeat;
@@ -121,10 +131,10 @@
 .jumbo-logistique {
   background:
        /* top, transparent red, faked with gradient */ linear-gradient(
-      rgba(244, 67, 54, 0.3),
-      rgba(244, 67, 54, 0.3)
+      rgba(244, 67, 54, 0.1),
+      rgba(244, 67, 54, 0.1)
     ),
-    /* bottom, image */ url(img/logistique.jpg);
+    /* bottom, image */ url(img/third.jpg);
   height: 70vh;
 
   background-attachment: fixed;
@@ -145,8 +155,8 @@
 .jumbo-transit {
   background:
        /* top, transparent red, faked with gradient */ linear-gradient(
-      rgba(244, 67, 54, 0.3),
-      rgba(244, 67, 54, 0.3)
+      rgba(244, 67, 54, 0.1),
+      rgba(244, 67, 54, 0.1)
     ),
     /* bottom, image */ url(img/transit.jpg);
   height: 70vh;
@@ -174,8 +184,8 @@
 .jumbo2 {
   background:
        /* top, transparent red, faked with gradient */ linear-gradient(
-      rgba(244, 67, 54, 0.3),
-      rgba(244, 67, 54, 0.3)
+      rgba(244, 67, 54, 0.1),
+      rgba(244, 67, 54, 0.1)
     ),
     /* bottom, image */ url(img/PAC-52.jpg);
   height: 60vh;
@@ -187,12 +197,21 @@
 }
 
 .jumbo-propos-1 {
-  background-color: gray;
+  background:
+       /* top, transparent red, faked with gradient */ linear-gradient(
+      rgba(244, 67, 54, 0.1),
+      rgba(244, 67, 54, 0.1)
+    ),
+    /* bottom, image */ url(img/allada.jpg);
+  height: 65vh;
+
+  background-attachment: fixed;
+  */background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .jumbohome2 {
-  height: 35vh;
-
   color: black;
   background-color: white;
   /* background-image: url(img/port.jpg); */
@@ -202,7 +221,7 @@
 }
 
 .jumbohome3 {
-  height: 60vh;
+  /* height: 60vh; */
 
   color: black;
   background-color: white;
@@ -213,7 +232,7 @@
 }
 
 .jumbohome4 {
-  height: 60vh;
+  /* height: 60vh; */
 
   color: black;
   background-color: white;
@@ -224,33 +243,64 @@
 }
 
 .jumbohome5 {
-  height: 60vh;
+  /* height: 60vh; */
 
   color: black;
   background-color: white;
-  background-image: url(img/pic3.jpg);
+  background-image: url(img/propos03.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100% auto;
 }
 
 .jumbohome6 {
-  height: 60vh;
+  /* height: 60vh; */
 
   color: black;
   background-color: white;
-  background-image: url(img/logistique.jpg);
+  background-image: url(img/third.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100% auto;
 }
 
 .jumbohome7 {
+  /* height: 60vh; */
+
+  color: black;
+  background-color: white;
+  background-image: url(img/propos02.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% auto;
+}
+
+.jumbohome70 {
+  /* height: 60vh; */
+  color: black;
+  background-color: white;
+  background-image: url(img/propos02.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% auto;
+}
+
+.jumbohome30 {
+  height: 90vh;
+  color: black;
+  background-color: white;
+  background-image: url(img/propos04.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.jumbohome50 {
   height: 60vh;
 
   color: black;
   background-color: white;
-  background-image: url(img/jumbo-home.jpg);
+  background-image: url(img/import.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100% auto;
@@ -264,7 +314,7 @@
   bottom: 0;
   width: 100%;
   height: 100%;
-  background-color: #f44336;
+  background-color: red;
   color: #fff;
 }
 
@@ -294,12 +344,31 @@
 .text-jumbotron-inside-card {
   color: #fff;
   margin-top: 40px;
-  font: 37px "greatest-bold";
+  font: 30px "greatest-bold";
 }
+
+.valeur {
+  color: #fff;
+  margin-top: 40px;
+  font: 27px "greatests";
+}
+
 .text-jumbotron-inside-card0 {
   color: #fff;
   font: 18px "greatest-medium";
   line-height: 1.7;
+  text-align: justify;
+}
+
+.text-jumbotron-inside-card001 {
+  color: #fff;
+  font: 25px "greatest-bold";
+  line-height: 1.7;
+  text-align: justify;
+}
+
+#p-2:hover {
+  color: red !important;
 }
 
 .jumbo3 {
@@ -328,8 +397,9 @@
 }
 
 .text-jumbo {
-  color: #fff;
-  font: 15px "greatest-regular";
+  color: #455a64;
+  font: 16px "greatests";
+  text-align: justify;
 }
 
 .propos-padding {
@@ -343,14 +413,15 @@
 }
 
 .text-jumbotron0 {
-  color: #424242;
-  margin-top: 35px;
+  color: #9e9e9e;
+  margin-top: 30px;
   font: 40px "greatest-bold";
 }
 
 .text-jumbotron1 {
-  color: #424242;
-  font: 17px "greatests";
+  color: #616161;
+  font: 16px "greatests";
+  text-align: justify;
 }
 
 .img-third {
@@ -407,12 +478,7 @@ hr {
 }
 
 .home-title {
-  display: table-cell;
-
-  font: 36px;
-
-  vertical-align: middle;
-
+  font: 50px "greatest-bold";
   color: #fff;
 }
 
@@ -588,6 +654,15 @@ hr {
 .text-jumbotron2 {
   color: #fff;
   font: 50px "greatest-bold";
+  margin-left: 45px;
+}
+
+.text-jumbotron2_ {
+  color: #fff;
+  font: 50px "greatest-bold";
+  margin-left: 45px;
+  position: relative;
+  bottom: 15px;
 }
 
 .padding-div-import {
@@ -606,7 +681,7 @@ hr {
 
 .chiffre {
   font: 30px "greatest-bold";
-  color: #a0bce1;
+  color: #9e9e9e;
 }
 
 .img-small {
@@ -624,12 +699,32 @@ hr {
 .dropdown-item {
   cursor: pointer;
   font-size: 14px;
-  color: #a0bce1;
+  color: black;
 }
 
 .text-paragraph {
   font: 16px "greatests";
   color: #455a64;
+  text-align: justify;
+}
+
+.dropdown-menu {
+  width: 13rem !important;
+}
+
+.dropdown-item {
+  padding-top: 13px;
+}
+
+.dropdown-item:active,
+.dropdown-item:focus,
+.dropdown-item:hover {
+  border: none !important;
+  outline: none !important;
+  background-color: #eeeeee !important;
+}
+a {
+  text-decoration: none !important;
 }
 
 .text-- {
@@ -651,4 +746,798 @@ hr {
 
 .quotation-text1 {
   font: 15px "greatests";
+}
+
+.text-universum {
+  font: 15px "greatest-bold";
+  color: gray;
+}
+
+a,
+u {
+  /* text-decoration: none !important; */
+}
+
+.icon-ok {
+  font-size: 14px !important;
+}
+
+.voila {
+  width: 200px;
+  height: 200px;
+}
+
+/* tell the container's children to float left: */
+.float-my-children > * {
+  float: left;
+  margin-right: 5px;
+}
+
+/* this is called a clearfix. it makes sure that the container's children floats are cleared, without using extra markup */
+
+.clearfix {
+  *zoom: 1; /* for IE */
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+/* end clearfix*/
+
+/* below is just to make things easier to see, not required */
+
+/* tell the container's children to float left: */
+.float-my-children > * {
+  float: left;
+  margin-right: 25px;
+}
+
+/* this is called a clearfix. it makes sure that the container's children floats are cleared, without using extra markup */
+
+.clearfix {
+  *zoom: 1; /* for IE */
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: inline-block;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+/* end clearfix*/
+
+/* below is just to make things easier to see, not required */
+
+.propos-text-1 {
+  font: 18px "greatests";
+  color: #bdbdbd !important;
+}
+
+.propos-text-2 {
+  font: 18px "greatest-medium";
+  color: #757575 !important;
+}
+
+.propos-text-3 {
+  font: 16px "greatest-regular";
+  color: #757575 !important;
+}
+
+.text-upside {
+  font: 25px "greatest-regular";
+  color: #212121 !important;
+}
+
+.text-upside2 {
+  font: 16px "greatests";
+  color: #757575 !important;
+}
+
+.padding-team {
+  padding-top: 40px !important;
+  padding-bottom: 80px !important;
+}
+
+.margin_div {
+  margin-top: 20px;
+}
+
+/*CONTACT PART*/
+
+.content-header {
+  font: 45px "greatests";
+  color: #fff;
+}
+
+.contact-text {
+  font: 1px greatest;
+}
+
+.section-content {
+  text-align: center;
+}
+
+#contact {
+  height: 550px;
+  padding-top: 60px;
+  color: #fff;
+
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #e0e0e0, red);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #9e9e9e, red);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.contact-section {
+  padding-top: 40px;
+}
+
+.contact-section .col-md-6 {
+  width: 50%;
+}
+
+.form-line {
+  border-right: 1px solid #fff;
+}
+
+.form-group {
+  margin-top: 10px;
+}
+
+label {
+  font-size: 1.3em;
+  font-weight: normal;
+  line-height: 1em;
+}
+
+textarea.form-control {
+  height: 135px;
+  /* margin-top: px;
+    */
+}
+
+.submit {
+  float: right;
+  width: 150px;
+  font-size: 1.1em;
+  color: #fff;
+  border: 1px solid #fff;
+  background-color: transparent;
+}
+
+.padding-video {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.label-style {
+  font: 16px "greatests";
+}
+
+.profile {
+  border-radius: 100px;
+  width: 200px;
+  height: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.block {
+  height: 5em;
+  line-height: 5em;
+  width: 10em;
+  background: #464646;
+  color: #fdfdfd;
+  text-align: center;
+  margin: 1em auto;
+  text-shadow: 0 0 1px #333; /* so one can see fadeBgColor properly */
+}
+
+.animatable {
+
+  /* initially hide animatable objects */
+  visibility: hidden;
+
+  /* initially pause animatable objects their animations */
+  -webkit-animation-play-state: paused;
+  -moz-animation-play-state: paused;
+  -ms-animation-play-state: paused;
+  -o-animation-play-state: paused;
+  animation-play-state: paused;
+}
+
+/* show objects being animated */
+.animated {
+  visibility: visible;
+
+  -webkit-animation-fill-mode: both;
+  -moz-animation-fill-mode: both;
+  -ms-animation-fill-mode: both;
+  -o-animation-fill-mode: both;
+  animation-fill-mode: both;
+
+  -webkit-animation-duration: 1s;
+  -moz-animation-duration: 1s;
+  -ms-animation-duration: 1s;
+  -o-animation-duration: 1s;
+  animation-duration: 1s;
+
+  -webkit-animation-play-state: running;
+  -moz-animation-play-state: running;
+  -ms-animation-play-state: running;
+  -o-animation-play-state: running;
+  animation-play-state: running;
+}
+
+/* CSS Animations (extracted from http://glifo.uiparade.com/) */
+@-webkit-keyframes fadeInDown {
+	0% {
+		opacity: 0;
+		-webkit-transform: translateY(-20px);
+	}	100% {
+		opacity: 1;
+		-webkit-transform: translateY(0);
+	}
+}
+
+@-moz-keyframes fadeInDown {
+	0% {
+		opacity: 0;
+		-moz-transform: translateY(-20px);
+	}
+
+	100% {
+		opacity: 1;
+		-moz-transform: translateY(0);
+	}
+}
+
+@-o-keyframes fadeInDown {
+	0% {
+		opacity: 0;
+		-o-transform: translateY(-20px);
+	}
+
+	100% {
+		opacity: 1;
+		-o-transform: translateY(0);
+	}
+}
+
+@keyframes fadeInDown {
+	0% {
+		opacity: 0;
+		transform: translateY(-20px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+
+
+@-webkit-keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	20% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@-moz-keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	20% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@-o-keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	20% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	60% {
+		opacity: 0;
+	}
+	20% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@-webkit-keyframes bounceInLeft {
+	0% {
+		opacity: 0;
+		-webkit-transform: translateX(-2000px);
+	}
+	60% {
+		-webkit-transform: translateX(20px);
+	}
+
+	80% {
+		-webkit-transform: translateX(-5px);
+	}
+
+	100% {
+		opacity: 1;
+		-webkit-transform: translateX(0);
+	}
+}
+
+@-moz-keyframes bounceInLeft {
+	0% {
+		opacity: 0;
+		-moz-transform: translateX(-2000px);
+	}
+
+	60% {
+		-moz-transform: translateX(20px);
+	}
+
+	80% {
+		-moz-transform: translateX(-5px);
+	}
+
+	100% {
+		opacity: 1;
+		-moz-transform: translateX(0);
+	}
+}
+
+@-o-keyframes bounceInLeft {
+	0% {
+		opacity: 0;
+		-o-transform: translateX(-2000px);
+	}
+
+	60% {
+		opacity: 1;
+		-o-transform: translateX(20px);
+	}
+
+	80% {
+		-o-transform: translateX(-5px);
+	}
+
+	100% {
+		opacity: 1;
+		-o-transform: translateX(0);
+	}
+}
+
+@keyframes bounceInLeft {
+	0% {
+		opacity: 0;
+		transform: translateX(-2000px);
+	}
+
+	60% {
+		transform: translateX(20px);
+	}
+
+	80% {
+		transform: translateX(-5px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+@-webkit-keyframes bounceInRight {
+	0% {
+		opacity: 0;
+		-webkit-transform: translateX(2000px);
+	}
+
+	60% {
+		-webkit-transform: translateX(-20px);
+	}
+
+	80% {
+		-webkit-transform: translateX(5px);
+	}
+
+	100% {
+		opacity: 1;
+		-webkit-transform: translateX(0);
+	}
+}
+
+@-moz-keyframes bounceInRight {
+	0% {
+		opacity: 0;
+		-moz-transform: translateX(2000px);
+	}
+
+	60% {
+		-moz-transform: translateX(-20px);
+	}
+
+	80% {
+		-moz-transform: translateX(5px);
+	}
+
+	100% {
+		opacity: 1;
+		-moz-transform: translateX(0);
+	}
+}
+
+@-o-keyframes bounceInRight {
+	0% {
+		opacity: 0;
+		-o-transform: translateX(2000px);
+	}
+
+	60% {
+		-o-transform: translateX(-20px);
+	}
+
+	80% {
+		-o-transform: translateX(5px);
+	}
+
+	100% {
+		opacity: 1;
+		-o-transform: translateX(0);
+	}
+}
+
+@keyframes bounceInRight {
+	0% {
+		opacity: 0;
+		transform: translateX(2000px);
+	}
+
+	60% {
+		transform: translateX(-20px);
+	}
+
+	80% {
+		transform: translateX(5px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+@-webkit-keyframes fadeInUp {
+	0% {
+		opacity: 0;
+		-webkit-transform: translateY(20px);
+	}	100% {
+		opacity: 1;
+		-webkit-transform: translateY(0);
+	}
+}
+
+@-moz-keyframes fadeInUp {
+	0% {
+		opacity: 0;
+		-moz-transform: translateY(20px);
+	}
+
+	100% {
+		opacity: 1;
+		-moz-transform: translateY(0);
+	}
+}
+
+@-o-keyframes fadeInUp {
+	0% {
+		opacity: 0;
+		-o-transform: translateY(20px);
+	}
+
+	100% {
+		opacity: 1;
+		-o-transform: translateY(0);
+	}
+}
+
+@keyframes fadeInUp {
+	0% {
+		opacity: 0;
+		transform: translateY(20px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+@-webkit-keyframes bounceIn {
+	0% {
+		opacity: 0;
+		-webkit-transform: scale(.3);
+	}
+	50% {
+		-webkit-transform: scale(1.05);
+	}
+
+	70% {
+		-webkit-transform: scale(.9);
+	}
+
+	100% {
+		opacity: 1;
+		-webkit-transform: scale(1);
+	}
+}
+
+@-moz-keyframes bounceIn {
+	0% {
+		opacity: 0;
+		-moz-transform: scale(.3);
+	}
+
+	50% {
+		-moz-transform: scale(1.05);
+	}
+
+	70% {
+		-moz-transform: scale(.9);
+	}
+
+	100% {
+		opacity: 1;
+		-moz-transform: scale(1);
+	}
+}
+
+@-o-keyframes bounceIn {
+	0% {
+		opacity: 0;
+		-o-transform: scale(.3);
+	}
+
+	50% {
+		-o-transform: scale(1.05);
+	}
+
+	70% {
+		-o-transform: scale(.9);
+	}
+
+	100% {
+		opacity: 1;
+		-o-transform: scale(1);
+	}
+}
+
+@keyframes bounceIn {
+	0% {
+		opacity: 0;
+		transform: scale(.3);
+	}
+
+	50% {
+		transform: scale(1.05);
+	}
+
+	70% {
+		transform: scale(.9);
+	}
+
+	100% {
+		opacity: 1;
+		transform: scale(1);
+	}
+}
+@-webkit-keyframes moveUp {
+	0% {
+		opacity: 1;
+		-webkit-transform: translateY(40px);
+	}	100% {
+		opacity: 1;
+		-webkit-transform: translateY(0);
+	}
+}
+
+@-moz-keyframes moveUp {
+	0% {
+		opacity: 1;
+		-moz-transform: translateY(40px);
+	}
+
+	100% {
+		opacity: 1;
+		-moz-transform: translateY(0);
+	}
+}
+
+@-o-keyframes moveUp {
+	0% {
+		opacity: 1;
+		-o-transform: translateY(40px);
+	}
+
+	100% {
+		opacity: 1;
+		-o-transform: translateY(0);
+	}
+}
+
+@keyframes moveUp {
+	0% {
+		opacity: 1;
+		transform: translateY(40px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+@-webkit-keyframes fadeBgColor {
+	0%{
+		background:none;
+	}
+  70%{
+		background:none;
+	}
+	100%{
+		background:#464646;
+	}
+}
+@-o-keyframes fadeBgColor {
+	0%{
+		background:none;
+	}
+  70%{
+		background:none;
+	}
+	100%{
+		background:#464646;
+	}
+}
+@keyframes fadeBgColor {
+	0%{
+		background:none;
+	}
+  70%{
+		background:none;
+	}
+	100%{
+		background:#464646;
+	}
+}
+
+.animated.animationDelay{
+	animation-delay:.4s;
+	-webkit-animation-delay:.4s;
+}
+.animated.animationDelayMed{
+	animation-delay:1.2s;
+	-webkit-animation-delay:1.2s;
+}
+.animated.animationDelayLong{
+	animation-delay:1.6s;
+	-webkit-animation-delay:1.6s;
+}
+.animated.fadeBgColor {
+	-webkit-animation-name: fadeBgColor;
+	-moz-animation-name: fadeBgColor;
+	-o-animation-name: fadeBgColor;
+	animation-name: fadeBgColor;
+}
+.animated.bounceIn {
+	-webkit-animation-name: bounceIn;
+	-moz-animation-name: bounceIn;
+	-o-animation-name: bounceIn;
+	animation-name: bounceIn;
+}
+.animated.bounceInRight {
+	-webkit-animation-name: bounceInRight;
+	-moz-animation-name: bounceInRight;
+	-o-animation-name: bounceInRight;
+	animation-name: bounceInRight;
+}
+.animated.bounceInLeft {
+	-webkit-animation-name: bounceInLeft;
+	-moz-animation-name: bounceInLeft;
+	-o-animation-name: bounceInLeft;
+	animation-name: bounceInLeft;
+}
+.animated.fadeIn {
+	-webkit-animation-name: fadeIn;
+	-moz-animation-name: fadeIn;
+	-o-animation-name: fadeIn;
+	animation-name: fadeIn;
+}
+.animated.fadeInDown {
+	-webkit-animation-name: fadeInDown;
+	-moz-animation-name: fadeInDown;
+	-o-animation-name: fadeInDown;
+	animation-name: fadeInDown;
+}
+.animated.fadeInUp {
+	-webkit-animation-name: fadeInUp;
+	-moz-animation-name: fadeInUp;
+	-o-animation-name: fadeInUp;
+	animation-name: fadeInUp;
+}
+.animated.moveUp {
+	-webkit-animation-name: moveUp;
+	-moz-animation-name: moveUp;
+	-o-animation-name: moveUp;
+	animation-name: moveUp;
+}
+
+.div_grab{
+  padding-top: 140px;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+  .home-title {
+    font: 30px "greatest-bold" !important;
+    color: #fff !important;
+    margin-top: 20px !important;
+  }
+
+  .videoWrapper {
+  	position: relative;
+  	padding-bottom: 56.25%; /* 16:9 */
+  	padding-top: 25px;
+  	height: 0;
+  }
+  .videoWrapper iframe {
+  	position: absolute;
+  	top: 0;
+  	left: 0;
+  	width: 300px !important;
+  	height: 200px !important;
+  }
 }

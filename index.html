@@ -1,92 +1,244 @@
-<!DOCTYPE html>
-<html>
-<head>
- <title>Login</title>
- <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="img/logo.png">
-    <link rel="stylesheet" href="//stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" crossorigin="anonymous">
-   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-</head>
-<style>
-	@import url(http://fonts.googleapis.com/css?family=Roboto:400);
-body {
-  background-color:#fff;
-  -webkit-font-smoothing: antialiased;
-  font: normal 14px Roboto,arial,sans-serif;
-}
-
-.container {
-    padding-top: 200px;
-}
-
-.form-login {
-    /* background-color: #EDEDED;
-    padding-top: 10px;
-    padding-bottom: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-    border-radius: 15px;
-    border-color:#d2d2d2;
-    border-width: 5px;
-    box-shadow:0 1px 0 #cfcfcf; */
-}
-
-h4 {
- border:0 solid #fff;
- border-bottom-width:1px;
- padding-bottom:10px;
- text-align: center;
-}
-
-.form-control {
-    border-radius: 10px;
-}
-
-.wrapper {
-    text-align: center;
-}
-.btn-primary{
-	width: 100%;
-}
-
-</style>
-<body>
-
-<div class="container">
-    <div class="row">
-        <div class="col-md-4 offset-md-4 ">
-        	<form name="form-login">
-            <div class="form-group">
-            <h4>Bienvenue a ATRAL</h4>
-            <input type="text"  class="form-control" name="userid" placeholder="noms" />
+<!doctype html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <meta name="description" content="">
+      <link rel="shortcut icon" href="img/logo.png">
+      <meta name="author" content="">
+      <title>Atral - Votre partenaire logistique</title>
+      <!-- Bootstrap core CSS -->
+      <link rel="stylesheet" href="//stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" crossorigin="anonymous">
+      <link rel="stylesheet" href="style.css">
+      <!-- Custom styles for this template -->
+   </head>
+   <body>
+      <div class="d-flex  flex-column flex-md-row align-items-center fixed-top  bg-white border-bottom shadow-sm">
+         <div class="mx-4 my-0 mr-md-auto">
+           <img src="img/logo.png" class="img-fluid img-size" alt="logo">
+         </div>
+         <nav class="my-2 my-md-0 mr-md-3">
+            <a id="p-2" class="p-2 text-dark active nounderline" href="index2.html">Accueil</a>
+            <div class="btn-group">
+              <a id="p-2" class="p-2 text-dark dropdown-toggle nounderline" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Nos services</a>
+            <div class="dropdown-menu dropdown-menu-center">
+              <a href="consignation.html"><button  class="dropdown-item" type="button">Consignation de navires</button></a>
+               <a href="transit.html"><button class="dropdown-item" type="button">Transit</button></a>
+               <a href="terminal.html"><button class="dropdown-item" type="button">Terminal à conteneurs</button></a>
+              <a href="logistique.html"><button class="dropdown-item" type="button">Logistique</button></a>
+            </div>
           </div>
-          <div class="form-group">
-            <input type="password" id="userPassword" name="pswrd" class="form-control" placeholder="mot de passe" />
+            <a id="p-2" class="p-2 text-dark nounderline" href="propos.html">A propos</a>
+            <a id="p-2" class="p-2 text-dark nounderline" href="contact.html">Contact</a>
+         </nav>
+          <a class="mx-4" href="quotation.html" target="_blank"><button type="button" class="btn btn-danger btn-sm">Demande de cotation</button></a>
+      </div>
+       <br></br>
+      <div class="jumbo2">
+         <div class="container jumbo-container">
+           <div class="row h-100">
+              <div class="col-sm-12 my-auto">
+                 <div class="subtitle-content">
+                    <div class="col-md-8">
+                       <p class="home-title home-padding animatable bounceInLeft">Votre partenaire logistique au Bénin</p>
+                       <p class="home-subtitle">
+                       </p>
+                    </div>
+                 </div>
+              </div>
+           </div>
+         </div>
+      </div>
+      <div class="jumbohome2">
+         <div class="container text-center">
+            <div class="row">
+              <div style="padding-bottom:35px;padding-top:20px;" class="col-sm-12">
+                <span class="text-jumbotron0 metier-underline">Notre métier</span><br>
+                <p style="padding-top:14px;" class="text-jumbotron1">Spécialiste du transit (Maritime, Aérien et Terrestre), de la manutention et de la consignation,  ATRAL est le partenaire privilégié pour la réussite de vos opérations logistiques. Nous offrons avec notre savoir-faire, nos infrastructures, et notre organisation, des services de qualité sur toute la chaîne d’approvisionnement. ATRAL prend en charge l’ensemble de vos opérations administratives et techniques destinées aux marchandises à l’importation, à l’exportation ou transitant par le Bénin. ATRAL s’engage à fournir des solutions sur mesure à tous vos besoins logistiques que vous soyez importateurs, exportateurs, armateurs ou commissionnaires en transport.</p>
+              </div>
+            </div>
+         </div>
+      </div>
+      <div class="jumbohome3">
+         <div class="container-fluid jumbo-container">
+            <div class="row h-100">
+              <div class="col-sm-6">
+                <div class="bg-div-6"></div>
+                 <div class="subtitle-content">
+                    <div style="padding-top:10px;padding-bottom: 120px;margin-left:15px;" class="col-md-8 animatable bounceIn">
+                      <a href="consignation.html"><p class="text-jumbotron-inside-card">Consignation de navires</p></a>
+                      <p class="text-jumbotron-inside-card0">Représentation des armateurs pour la consignation de tous types de navires devant accoster au Port Autonome de Cotonou pour des opérations commerciales ou techniques.</p>
+                    </div>
+                 </div>
+              </div>
+               <div class="col-md-6"></div>
+            </div>
+         </div>
+      </div>
+      <div class="jumbohome4">
+         <div class="container-fluid jumbo-container">
+            <div class="row h-100">
+               <div class="col-md-6"></div>
+                <div class="col-sm-6">
+                  <div class="bg-div-6"></div>
+                   <div class="subtitle-content">
+                      <div style="padding-top:10px;padding-bottom: 120px;margin-left:15px;" class="col-md-8 animatable bounceIn">
+                        <a href="transit.html"><p class="text-jumbotron-inside-card">Transit</p></a>
+                        <p class="text-jumbotron-inside-card0">Gestion de l’ensemble des opérations de transport, manutention, stockage et des formalités administratives diverses pour l’importation ou l’exportation des marchandises.</p>
+                      </div>
+                   </div>
+                </div>
+            </div>
+         </div>
+      </div>
+      <div class="jumbohome5">
+         <div class="container-fluid jumbo-container">
+            <div class="row h-100">
+              <div class="col-sm-6">
+                <div class="bg-div-6"></div>
+                 <div class="subtitle-content">
+                    <div  style="padding-top:10px;padding-bottom: 120px;margin-left:15px;" class="col-md-8 animatable bounceIn">
+                      <a href="terminal.html"><p class="text-jumbotron-inside-card">Terminal à conteneurs </p></a>
+                      <p class="text-jumbotron-inside-card0">
+                      Infrastructure portuaire mise à disposition de nos clients pour le déchargement de marchandises en transit vers les pays de l’hinterland et le chargement des produits à l’export. </p>
+                    </div>
+                 </div>
+              </div>
+               <div class="col-sm-6"></div>
+            </div>
+         </div>
+      </div>
+      <div class="jumbohome6">
+         <div class="container-fluid jumbo-container">
+            <div class="row h-100">
+               <div class="col-md-6"></div>
+                <div class="col-sm-6">
+                  <div class="bg-div-6"></div>
+                   <div class="subtitle-content">
+                      <div style="padding-top:10px;padding-bottom: 120px;margin-left:15px;" class="col-md-8 animatable bounceIn">
+                        <a href="logistique.html"><p class="text-jumbotron-inside-card">Logistique</p></a>
+                        <p class="text-jumbotron-inside-card0">Gestion des flux logistiques des marchandises, transport terrestre, manutention, stockage.</p>
+                      </div>
+                   </div>
+                </div>
+            </div>
+         </div>
+      </div>
+
+        <!-- <div class="container-fluid padding-div-title">
+          <div class="container">
+              <p class="title-div-3">Nos activités</p>
+            <div class="row">
+            <div class="col-md-3">
+              <p class="title-div-2">Consignation Maritime </p>
+              <p>Atral coordonne et supervise les escales des navires au port autonome de Cotonou pour le compte des armateurs. </p>
+            </div>
+            <div class="col-md-3">
+              <p class="title-div-2">Transit</p>
+              <p>Atral se charge de la gestion de l’ensemble des opérations relatives à vos marchandises en transit par le Bénin. </p>
+            </div>
+            <div class="col-md-3">
+              <p class="title-div-2">Terminal à conteneur </p>
+              <p>Atral met à disposition de ses clients une infrastructure portuaire pour la gestion de transferts de conteneurs a destination des pays frontaliers.</p>
+            </div>
+            <div class="col-md-3">
+              <p class="title-div-2">Logistique</p>
+              <p>Atral intervient dans la gestion logistique de vos activités de transport terrestre, de manutention et de stockage de marchandises.</p>
+            </div>
+            </div>
           </div>
-            <!-- <div class="wrapper">
-            <input type="button" onclick="check(this.form)" value="Login">
-            </div> -->
-           <button type="button " onclick="check(this.form)" class="btn btn-primary">Ouvrir</button>
+        </div> -->
+      <!-- <div class="jumbo1">
+         <div class="container jumbo-container">
+            <div class="row h-100">
+               <div class="col-sm-12 my-auto">
+                  <div class="subtitle-content">
+                     <div class="col-md-8">
+                        <h1 class="text-jumbotron">Textes du slide</h1>
+                        <p class="text-jumbotron">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged</p>
+                        <button type="button" class="btn btn-outline-primary">Nos services</button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div> -->
+      <!-- <div class="jumbo3">
+         <div class="container jumbo-container">
+            <div class="row">
+               <div class="col-md-8 padding-top">
+                  <h1 class="">Faire une demande de quihahon</h1>
+                  <p class="">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.</p>
+               </div>
+               <div class="col-md-4 my-auto">
+                  <button type="button" class="btn float-right btn-danger">Button</button>
+               </div>
+            </div>
+         </div>
+      </div> -->
+      <br>
 
+      <div class="container-fluid footer-border-top text-center">
+         <footer class="pt-4 my-md-5">
+            <div class="row">
+               <div class="col-12">
+                  <!-- <div class="center-nav2">
+                     <img src="img/facebook.svg" class="img-icon" alt="logo">
+                     <img src="img/Instagram.svg" class="img-icon" alt="logo">
+                     <img src="img/linkedin.svg" class="img-icon" alt="logo">
+                     <img src="img/Twitter.svg" class="img-icon" alt="logo">
+                  </div> -->
+                  <small class="d-block mb-3 text-muted"><span>&copy; 2018-2019</span><br><span>Email: contact@atralbenin.com</span><br><span>Tel:</span><span> +229 21 30 39 22</span><p>Site réalisé par : <span><a class="text-universum" target="_blank" href="http://universum.coolpage.biz"></span>universum & associates</span></a></p></small>
 
-        </form>
-        </div>
-    </div>
-</div>
+               </div>
+            </div>
+         </footer>
+      </div>
+      <!-- Bootstrap core JavaScript
+         ================================================== -->
+      <!-- Placed at the end of the document so the pages load faster -->
+      <script src="//code.jquery.com/jquery-3.3.1.slim.min.js"  crossorigin="anonymous"></script>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" crossorigin="anonymous"></script>
+      <script src="//stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" crossorigin="anonymous"></script>
+      <script>
+      jQuery(function($) {
 
+        // Function which adds the 'animated' class to any '.animatable' in view
+        var doAnimations = function() {
 
-<script type="text/javascript">
-function check(form) {
-  if (form.userid.value == "atral" && form.pswrd.value == "adminatral") {
-    window.open("index2.html")
-  } else {
-    alert("le nom d'utilisateur et le mot de passe ne correspondent pas")
-  }
-}
+          // Calc current offset and get all animatables
+          var offset = $(window).scrollTop() + $(window).height(),
+              $animatables = $('.animatable');
+
+          // Unbind scroll handler if we have no animatables
+          if ($animatables.length == 0) {
+            $(window).off('scroll', doAnimations);
+          }
+
+          // Check all animatables and animate them if necessary
+          $animatables.each(function(i) {
+             var $animatable = $(this);
+            if (($animatable.offset().top + $animatable.height() - 20) < offset) {
+              $animatable.removeClass('animatable').addClass('animated');
+            }
+          });
+
+        };
+
+        // Hook doAnimations on scroll, and trigger a scroll
+        $(window).on('scroll', doAnimations);
+        $(window).trigger('scroll');
+
+      });
+      $(".dropdown-menu").hover(function() {
+  $(this).addClass("show")
+})
+
+Holder.addTheme("thumb", {
+  bg: "#55595c",
+  fg: "#eceeef",
+  text: "Thumbnail"
+})
 </script>
-<script src="//code.jquery.com/jquery-3.3.1.slim.min.js"  crossorigin="anonymous"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" crossorigin="anonymous"></script>
-<script src="//stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" crossorigin="anonymous"></script>
-</body>
+   </body>
 </html>
